@@ -55,8 +55,8 @@ const App = () => {
   // Create HTML for movie title display
   const displayMovie = (movie) => {
     if (!movie) return null; // Handle case where movie is not yet loaded
-    let moviePoster = movie.thumbnail ? movie.thumbnail : posterNotFound;
     let wikiLink = "https://en.wikipedia.org/wiki/" + movie.href;
+    let moviePoster = movie.thumbnail && imageExists(movie.thumbnail) ? movie.thumbnail : posterNotFound;
 
     return (
       <div className="Movie-display">
@@ -73,6 +73,17 @@ const App = () => {
       </div>
     );
   };
+
+  const imageExists = (image_url) => {
+
+    var http = new XMLHttpRequest();
+
+    http.open('HEAD', image_url, false);
+    http.send();
+
+    return http.status != 404;
+
+}
 
   // Handle genre button clicks
   const handleClick = (genre) => {
