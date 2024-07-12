@@ -1,7 +1,7 @@
 # About this project
 
-This code suggests a movie at random to the user depending on a selected genre.
-This was built as an excuse to get more familiar with and play around using ReactJS.
+This app suggests a movie at random to the user depending on a selected genre.
+This was built as a means of getting more familiar with tools like ReactJS and TailwindCSS.
 
 Movie data was taken from https://github.com/prust/wikipedia-movie-data.
 Stand-in image for missing or broken movie poster links was taken from https://pixabay.com/illustrations/icon-cross-error-no-mistake-6026650/.
