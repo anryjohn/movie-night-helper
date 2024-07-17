@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/movie-night/static/css/main.9b75233d.css",
-    "main.js": "/movie-night/static/js/main.fb3cada2.js",
-    "static/js/453.5cc28972.chunk.js": "/movie-night/static/js/453.5cc28972.chunk.js",
-    "static/media/poster_not_found.png": "/movie-night/static/media/poster_not_found.2dd70fb98d18f00f5f19.png",
-    "index.html": "/movie-night/index.html",
-    "main.9b75233d.css.map": "/movie-night/static/css/main.9b75233d.css.map",
-    "main.fb3cada2.js.map": "/movie-night/static/js/main.fb3cada2.js.map",
-    "453.5cc28972.chunk.js.map": "/movie-night/static/js/453.5cc28972.chunk.js.map"
+    "main.css": "/movie-night-helper/static/css/main.9b75233d.css",
+    "main.js": "/movie-night-helper/static/js/main.32bc0598.js",
+    "static/js/453.5cc28972.chunk.js": "/movie-night-helper/static/js/453.5cc28972.chunk.js",
+    "static/media/poster_not_found.png": "/movie-night-helper/static/media/poster_not_found.2dd70fb98d18f00f5f19.png",
+    "index.html": "/movie-night-helper/index.html",
+    "main.9b75233d.css.map": "/movie-night-helper/static/css/main.9b75233d.css.map",
+    "main.32bc0598.js.map": "/movie-night-helper/static/js/main.32bc0598.js.map",
+    "453.5cc28972.chunk.js.map": "/movie-night-helper/static/js/453.5cc28972.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b75233d.css",
-    "static/js/main.fb3cada2.js"
+    "static/js/main.32bc0598.js"
   ]
 }
