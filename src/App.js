@@ -11,7 +11,7 @@ const loadMovieData = () => {
     genreMap[genre] = [];
   }
 
-  // Build movie map and add pointers to movies to related genres
+  // Build movie map and add pointers to movies for related genres
   for (const movie of movieData) {
     for (const g of movie.genres) {
       movieMap[movie.href] = movie;
